@@ -3,7 +3,7 @@
 ### Usage
 ```
 # Base image only
-cp ~/.env.example ~/.env
+cp ./.env.example ./.env
 docker-compose up -d
 ```
 ### Base configuration
@@ -14,7 +14,7 @@ docker-compose up -d
 
 ```
 # Base image and addons
-cp ~/.env.example ~/.env
+cp ./.env.example ./.env
 docker-compose -f docker-compose.yml -f docker-compose-addon.yml up -d
 ```
 
