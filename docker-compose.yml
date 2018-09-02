@@ -15,7 +15,7 @@ services:
       - ${DATA_FOLDER}/profile:/var/www/profile
       - ${DATA_FOLDER}/app:/var/www/app
       - ${DATA_FOLDER}/auth:/var/www/auth
-      - ${DATA_FOLDER}/vhost:/etc/nginx/sites-enabled:ro
+      - ${DATA_FOLDER}/vhost:/etc/nginx/sites-enabled
     restart: always
     tty: true
   mariadb:
